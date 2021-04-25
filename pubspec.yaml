@@ -60,17 +60,50 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
-  #
-  # For details regarding fonts from package dependencies,
-  # see https://flutter.dev/custom-fonts/#from-packages
+  fonts:
+    # Montserrat
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/montserrat/Montserrat_w100.ttf
+          weight: 100
+        - asset: assets/fonts/montserrat/Montserrat_w100i.ttf
+          weight: 100
+          style: italic
+        - asset: assets/fonts/montserrat/Montserrat_w200.ttf
+          weight: 200
+        - asset: assets/fonts/montserrat/Montserrat_w200i.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/montserrat/Montserrat_w300.ttf
+          weight: 300
+        - asset: assets/fonts/montserrat/Montserrat_w300i.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/montserrat/Montserrat_w400.ttf
+        - asset: assets/fonts/montserrat/Montserrat_w400i.ttf
+          style: italic
+        - asset: assets/fonts/montserrat/Montserrat_w500.ttf
+          weight: 500
+        - asset: assets/fonts/montserrat/Montserrat_w500i.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/montserrat/Montserrat_w600.ttf
+          weight: 600
+        - asset: assets/fonts/montserrat/Montserrat_w600i.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/montserrat/Montserrat_w700.ttf
+          weight: 700
+        - asset: assets/fonts/montserrat/Montserrat_w700i.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/montserrat/Montserrat_w800.ttf
+          weight: 800
+        - asset: assets/fonts/montserrat/Montserrat_w800i.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/montserrat/Montserrat_w900.ttf
+          weight: 900
+        - asset: assets/fonts/montserrat/Montserrat_w900i.ttf
+          weight: 900
+          style: italic
